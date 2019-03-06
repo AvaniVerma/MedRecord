@@ -1,8 +1,3 @@
-body
-{
-    background-color: #f4f4f4;
-}
-
 .addPadding
 {
     padding: 0 8em;
@@ -10,7 +5,7 @@ body
 
 nav
 {
-    background-color: #155935;
+    background-color: lightseagreen;
 }
 
 /* Search Style */ 
@@ -85,4 +80,34 @@ nav
 .card
 {
     width: 25%;
+}
+
+
+
+/* Add medicine form */
+#inputForm{
+    width: 500px;
+    margin: 10px auto;
+}
+
+input[type="number"]
+{
+    width: 40%;
+}
+
+.day
+{
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
+
+.btn
+{
+    background-color:lightseagreen;
+}
+
+.btn:hover
+{
+    background-color: lightseagreen;
 }

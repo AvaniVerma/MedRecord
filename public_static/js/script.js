@@ -10,6 +10,7 @@ $(document).ready(function(){
 				if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
 				$(this).removeClass('open');}
     });
-    
+
+	
     
 });

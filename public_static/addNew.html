@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- Compiled and minified JavaScript -->
-    <script src="./js/materialize.js"></script>  
     <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>   
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./js/materialize.js"></script>     
     <script src="./js/script.js"></script>        
-
+    <script src="./js/addNew.js"></script>
 </head>
 
 
@@ -41,17 +41,90 @@
     </div>
 </nav>
             
-<br><br><br>
 
 
 <!-- Search Form -->
 <div id="search"> 
     <span class="close">X</span>
     <form role="search" id="searchform" action="/search" method="get">
-        <input type="search" placeholder="Search Medicine"/>
+        <input type="search" placeholder="Search Medicine">
     </form>
 </div>
     
+
+<div id="inputForm">
+    <div class="row input-field col s12 day">    
+        <input id="name" type="text" placeholder="Medicine Name"> 
+        <input type="number" min="1" max="100" placeholder="I have bought XX units" id="">
+        <button class="btn waves-effect waves-light"> Add to stock </button>
+    </div>
+
+    <div class="carousel">
+        <a class="carousel-item" href="#one!">
+            <div class="day">
+                <b>Monday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+            <img src="./images/monday.jpg">
+        </a>
+
+
+        <a class="carousel-item" href="#two!">
+            <div class="day">
+                <b>Tuesday</b>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+        <img src="./images/tuesday.jpg">
+        </a>
+
+        <a class="carousel-item" href="#three!">
+            <div class="day">
+                <b>Wednesday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+            <img src="./images/wednesday.jpeg">
+        </a>
+
+        <a class="carousel-item" href="#four!">
+            <div class="day">
+                <b>Thursday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+            <img src="./images/thursday.jpg">
+        </a>
+
+        <a class="carousel-item" href="#five!">
+            <div class="day">
+                <b>Friday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+            <img src="./images/friday.jpg">
+        </a>
+
+        <a class="carousel-item" href="#five!">
+            <div class="day">
+                <b>Saturday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+        <img src="./images/saturday.jpg">
+        </a>
+
+        <a class="carousel-item" href="#five!">
+            <div class="day">
+                <b>Sunday</b>
+                <br>
+                <input class="day" type="number" min="0" max="10" id="">
+            </div>
+            <img src="./images/sunday.jpg">
+        </a>
+    </div>
+</div>
+
     
 
 
