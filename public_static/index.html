@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medicine Record</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="./js/materialize.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>    
+    <script src="./js/script.js"></script>        
+
+</head>
+
+
+
+<body>
+
+<!-- Navigation bar -->
+<nav>
+    <div class="nav-wrapper addPadding">
+        <a href="./index.html" class="brand-logo">LOGO</a>
+        
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#search">
+            <i class="material-icons">search</i>
+        </a></li>
+        <li><a href="./addNew.html">
+            <i class="material-icons left">add_to_photos</i> Add med
+        </a></li>
+        </ul>
+    
+    </div>
+</nav>
+            
+<br><br><br>
+
+<!-- Search Form -->
+<div id="search"> 
+    <span class="close">X</span>
+    <form role="search" id="searchform" action="/search" method="get">
+        <input class="autocomplete" type="search" placeholder="Search medicine"/>
+    </form>
+</div>
+
+
+
+
+<!-- Rest of the content -->
+<div class="addPadding">
+
+    <div class="card sticky-action">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="">
+        </div>
+        <div class="card-action">
+            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+    </div>
+
+</div>
+</body>
+
+
+</html>
