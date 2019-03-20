@@ -118,3 +118,9 @@ input[type="number"]
     float: left;
     margin: 3em;
 }
+
+#errorDiv
+{
+    text-align: center;
+    margin: 2em;
+}
