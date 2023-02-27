@@ -6,6 +6,6 @@
   "version": "",
   "dependencies": {
     "express": "^4.16.4",
-    "hbs": "^4.0.3"
+    "hbs": "^4.2.0"
   }
 }
